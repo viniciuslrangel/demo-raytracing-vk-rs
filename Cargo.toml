@@ -1,0 +1,14 @@
+[package]
+name = "raytracing-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cgmath = "0.18"
+imgui = { version = "0.11", features = ["tables-api"] }
+serde = "1.0"
+winit = "0.28"
+vulkano = { version = "0.33", features = ["serde", "vulkano-macros"] }
+vulkano-shaders = "0.33"
+vulkano-util = "0.33"
+vulkano-win = "0.33"
